@@ -9,29 +9,39 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
 	<!-- Description avec content vide : à remplir avec des mots clés pertinents max 155 caractères -->
-	<meta name="description" content="La chouette agence est une agence de webdesign située à Lyon, notre métier est de participer au développement des entreprises sur Internet.">
+	<meta name="description" content="La chouette agence est une agence de web design située à Lyon, notre métier est de participer au développement des entreprises sur Internet.">
 	<!-- responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-	<!-- modification de favicon format 32x32 et extension en .ico et non png -->
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
-    
 	<!-- Google : Googlebot index et crawl -->
 	<meta name="robots" content="index, follow"/>
 
+	<!-- Open Graph Data : pour le SEO -->
+	<meta property="og:title"       content="La chouette agence pour le web design"/>
+	<meta property="og:description" content="Agence de web design basée à Lyon"/>
+	<meta property="og:type"        content="website"/>
+	<meta property="og:url"         content="https://hunghuynh-prestige.github.io/HungHUYNH_4_15062021/index.html"/>
+	<meta property="og:image"       content="https://github.com/HUNGHUYNH-prestige/HungHUYNH_4_15062021/blob/master/img/logo.png"/>
+
+	<!-- modification de favicon format 32x32 et extension en .ico et non png -->
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+
+	<!-- mise en page CSS -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
-    
+
+    <!-- JavaScript -->
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
 
-    <title>.</title>
+	<!-- titre : title vide à remplir -->
+    <title>La chouette agence : web design à Lyon</title>
 
     
 <!-- Analytics -->
@@ -49,7 +59,9 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
+				<!-- retirer la div keywords : spam 
 				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				-->
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
 				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
