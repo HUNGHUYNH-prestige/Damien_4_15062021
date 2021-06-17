@@ -1091,3 +1091,18 @@ h4 {
     display: flex;
     justify-content: center;
 }
+
+.container-de-titre-des-creations{
+    border: 1px solid pink;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titre-des-creations{
+    border: 1px solid green;
+    width: 55%;
+    font-size: 2em;
+    color: black;
+    opacity: 0.8;
+}
