@@ -1041,11 +1041,53 @@ h4 {
     }
 }
 
-.texte-en-noir{
-    color: black;
-    font-weight: bold;
+.container-du-container-de-citation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightblue;
+    width: 100%;
 }
 
-.texte-en-petit{
+.container-de-citation{
+    border: 1px solid lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.citation{
+    border: 1px dashed black;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+.auteur-de-citation{
+    border: 1px dotted rgb(45, 45, 45);
+    font-size: 0.9em;
     color: rgb(45, 45, 45);
+    width: 100%;
+}
+
+.container-texte-de-presentation{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.texte-de-presentation{
+    border: 1px solid orange;
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
