@@ -1104,12 +1104,12 @@ h4 {
     border: 1px solid pink;
     display: flex;
     justify-content: center;
-
+    width: 100%;
 }
 
 .titre-des-creations{
     border: 1px solid green;
-    width: 55%;
+    width: 100%;
     font-size: 2em;
     color: black;
     opacity: 0.8;
