@@ -735,8 +735,16 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.black {
+    color: #000000!important;
+}
+
+.noir-gras{
+    font-weight: bold;
+}
+
+.noir-size{
+    font-size: 1em;
 }
 
 .portfolio-thumb {
