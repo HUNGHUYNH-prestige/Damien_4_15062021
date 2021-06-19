@@ -1132,3 +1132,17 @@ h4 {
     justify-content: center;
     align-items: center;
 }
+
+.container-network{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.network-icone-size{
+    border: 1px solid darkblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10%;
+}
