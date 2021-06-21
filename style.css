@@ -530,13 +530,20 @@ button {
     opacity: 1;
 }
 
-/*
+
 a[data-lightbox] {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    /*
     display: block;
     text-align: center;
+    */
 }
-*/
+
 
 a[data-lightbox]:hover::before {
     content: "+";
@@ -548,12 +555,18 @@ a[data-lightbox]:hover::before {
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
+    border: 1px solid #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    */
 }
 
 a[data-lightbox]:hover img {
@@ -1124,6 +1137,7 @@ h4 {
 }
 
 /* voir a[data-lightbox] pour la formation initiale */
+/*
 .container-link{
     margin: 0;
     padding: 0;
@@ -1131,6 +1145,7 @@ h4 {
     justify-content: center;
     align-items: center;
 }
+*/
 
 .container-network{
     display: flex;
